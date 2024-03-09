@@ -1,0 +1,19 @@
+#cafe_table > thead > tr > th:nth-of-type(1),
+#cafe_table > thead > tr > th:nth-of-type(5) {
+    width: 20%;
+}
+
+#cafe_table > thead > tr > th:nth-of-type(6) {
+    width: 15%;
+}
+
+#cafe_table > thead > tr > th:nth-of-type(2),
+#cafe_table > thead > tr > th:nth-of-type(3),
+#cafe_table > thead > tr > th:nth-of-type(4){
+    width: 10%;
+}
+
+#add_form input[type="text"] {
+    color: #00F701;
+}
+

@@ -1,0 +1,10 @@
+{% from "bootstrap5/form.html" import render_form %}
+{% block content %}
+{% include "header.html" %}
+
+<div class="container d-flex justify-content-center w-50" id="add_form">
+    {{ render_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+</div>
+
+{% include "footer.html" %}
+{% endblock %}
